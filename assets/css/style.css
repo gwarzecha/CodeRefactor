@@ -62,24 +62,8 @@ p {
 }
 
 
-/* these floats need to be worked into the img for content-primary */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
 .benefits {
     margin-right: 20px;
@@ -111,21 +95,59 @@ p {
 
 
 /* work with these */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 
 .content-primary {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    width: 1214.25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    overflow: auto;  
 }
 
 
 .content-primary img {
     max-height: 200px;
+    float: left;
+    margin-right: 0;
+    width: 25%;  
 }
 
+.content-text {
+    float: left;
+    padding: 0 0 0 25px;
+    width: 75%;
+}
+
+.content-primary h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+  
 /* especially the img (it's huge) */
 
 
@@ -148,15 +170,6 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
 
 
 /* consolidate */
@@ -168,23 +181,12 @@ p {
     max-height: 200px;
 }
 
-.social-media-marketing img {
-    max-height: 200px;
-}
 
 
 /* consolidate */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+
 
 .online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
