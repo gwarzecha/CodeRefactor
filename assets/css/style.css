@@ -55,10 +55,6 @@ body {
     background-position: center;
 }
 
-
-
-
-
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -90,16 +86,12 @@ body {
     font-size: 16px;
 }
 
-
-
-/* work with these */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
     overflow: auto;
 }
-
 
 .content-primary {
     margin-bottom: 20px;
@@ -114,18 +106,17 @@ body {
     width: auto;
 }
 
-
 .content-primary img {
     max-height: 200px;
     min-height: 200px;
     float: left;
-    width: 25%;  
+    width: 31%;  
 }
 
 .content-text {
     float: left;
     padding: 0 0 0 25px;
-    width: 75%;
+    width: 69%;
     max-height: 200px;
 }
 
@@ -145,7 +136,6 @@ body {
 .text-left {
     text-align: left;
 }
-
 
 .footer {
     padding: 30px;
