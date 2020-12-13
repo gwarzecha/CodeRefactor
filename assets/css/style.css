@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* rules for header below */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,8 +20,6 @@ body {
     font-size: 48px;
     color: #d9dcd6;
 }
-
-
 
 .header nav {
     padding-top: 15px;
@@ -44,7 +42,7 @@ body {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* rules for hero below */
 .hero {
     height: 800px;
     width: 100%;
@@ -53,7 +51,57 @@ body {
     background-size: cover;
     background-position: center;
 }
+/* rules for content section below */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    overflow: auto;
+}
 
+.content-primary {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    overflow: auto;  
+    float: left;
+    width: auto;
+}
+
+.content-primary img {
+    max-height: 200px;
+    min-height: 200px;
+    float: left;
+    width: 31%;  
+}
+
+.content-text {
+    float: left;
+    padding: 0 0 0 25px;
+    width: 69%;
+    max-height: 200px;
+}
+/* below rule only affects online-reputation-management-- img is on R side */
+#online-reputation-management div {
+    padding: 0 25px 0 0;
+}
+
+.content-primary h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.content-text p {
+    font-size: 16px;
+}
+
+.text-left {
+    text-align: left;
+}
+/* rules for benefits section below */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,58 +132,7 @@ body {
 .benefit-primary p {
     font-size: 16px;
 }
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-    overflow: auto;
-}
-
-.content-primary {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-    overflow: auto;  
-    float: left;
-    width: auto;
-}
-
-.content-primary img {
-    max-height: 200px;
-    min-height: 200px;
-    float: left;
-    width: 31%;  
-
-}
-
-.content-text {
-    float: left;
-    padding: 0 0 0 25px;
-    width: 69%;
-    max-height: 200px;
-}
-
-#online-reputation-management div {
-    padding: 0 25px 0 0;
-}
-
-.content-primary h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.content-text p {
-    font-size: 16px;
-}
-
-.text-left {
-    text-align: left;
-}
-
+/* rules for footer below */
 .footer {
     padding: 30px;
     clear: both;
